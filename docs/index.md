@@ -35,7 +35,22 @@
 *O projeto visa otimizar o processo de entregas das 40 lojas da Pizza-Express otimizando o tempo de entrega num tempo menor que 30 minutos,e melhorando o progresso de lojas que não teriam espaço no varejo por falta de conhecimento dos usuários*
 
 # Análise de requisitos funcionais e não-funcionais
-*&lt;Descrição dos requisitos&gt;*
+**Requisitos Funcionais**
+*Cadastro do cliente: O cliente deve criar uma conta para poder efetuar o pedido.
+*Visualização do menu: O cliente deve ter acesso ao menu e as informações presentes.
+*Registro de pedido: O sistema deve permitir que os pedidos dos clientes sejam registrados no sistema
+*Atulização em tempo real do pedido: O sistema deve transmitir ao usuário a situação do pedido em tempo real.
+*Registro de pagamento: O sistema deve registrar que foi efetuado o pagamento do pedido.
+*Cancelamento do pedido: O sistema deve permitir que o cliente altere ou cancele o pedido.
+
+
+**Requisitos Não-Funcionais**
+
+*Acessibilidade: O sistema deve ser acessível a todos os usuários, incluindo pessoas com deficiências. Deve ter recursos de acessibilidade como tamanho de fonte ajustável.
+*Compatibilidade com navegadores web: O sistema deve ser compatível com todos os principais navegadores web, incluindo navegadores para dispositivos móveis.
+*Desempenho: O sistema deve ser capaz de lidar com a alta demanda de pedidos sem ser afetado negativamento ou apresentar mal funcionamento.
+*Segurança: O sistema deve aderir às melhores práticas de segurança para proteger os dados dos clientes.
+*Facilidade de acesso e uso: O sistema deve ter um sistema fácil acesso à todas as idades,já que assim o alcance e lucro das lojas será maior
 
 # Diagrama de casos de uso
 
