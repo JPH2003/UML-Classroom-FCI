@@ -36,21 +36,21 @@
 
 # Análise de requisitos funcionais e não-funcionais
 **Requisitos Funcionais**
-*Cadastro do cliente: O cliente deve criar uma conta para poder efetuar o pedido.<br>
-*Visualização do menu: O cliente deve ter acesso ao menu e as informações presentes.<br>
-*Registro de pedido: O sistema deve permitir que os pedidos dos clientes sejam registrados no sistema<br>
-*Atulização em tempo real do pedido: O sistema deve transmitir ao usuário a situação do pedido em tempo real.<br>
-*Registro de pagamento: O sistema deve registrar que foi efetuado o pagamento do pedido.<br>
-*Cancelamento do pedido: O sistema deve permitir que o cliente altere ou cancele o pedido.<br>
+* Cadastro do cliente: O cliente deve criar uma conta para poder efetuar o pedido.<br>
+* Visualização do menu: O cliente deve ter acesso ao menu e as informações presentes.<br>
+* Registro de pedido: O sistema deve permitir que os pedidos dos clientes sejam registrados no sistema.<br>
+* Atulização em tempo real do pedido: O sistema deve transmitir ao usuário a situação do pedido em tempo real.<br>
+* Registro de pagamento: O sistema deve registrar que foi efetuado o pagamento do pedido.<br>
+* Cancelamento do pedido: O sistema deve permitir que o cliente altere ou cancele o pedido.<br>
 
 
 **Requisitos Não-Funcionais**
 
-*Acessibilidade: O sistema deve ser acessível a todos os usuários, incluindo pessoas com deficiências. Deve ter recursos de acessibilidade como tamanho de fonte ajustável.<br>
-*Compatibilidade com navegadores web: O sistema deve ser compatível com todos os principais navegadores web, incluindo navegadores para dispositivos móveis.<br>
-*Desempenho: O sistema deve ser capaz de lidar com a alta demanda de pedidos sem ser afetado negativamento ou apresentar mal funcionamento.<br>
-*Segurança: O sistema deve aderir às melhores práticas de segurança para proteger os dados dos clientes.<br>
-*Facilidade de acesso e uso: O sistema deve ter um sistema fácil acesso à todas as idades,já que assim o alcance e lucro das lojas será maior.<br>
+* Acessibilidade: O sistema deve ser acessível a todos os usuários, incluindo pessoas com deficiências. Deve ter recursos de acessibilidade como tamanho de fonte ajustável.<br>
+* Compatibilidade com navegadores web: O sistema deve ser compatível com todos os principais navegadores web, incluindo navegadores para dispositivos móveis.<br>
+* Desempenho: O sistema deve ser capaz de lidar com a alta demanda de pedidos sem ser afetado negativamento ou apresentar mal funcionamento.<br>
+* Segurança: O sistema deve aderir às melhores práticas de segurança para proteger os dados dos clientes.<br>
+* Facilidade de acesso e uso: O sistema deve ter um sistema fácil acesso à todas as idades,já que assim o alcance e lucro das lojas será maior.<br>
 
 # Diagrama de casos de uso
 
