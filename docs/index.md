@@ -47,6 +47,8 @@
 
 **Ator: Cliente**
 
+**Pré condições: Cliente precisa ter feito o cadastro no sistema**
+
 **Descrição: O cliente pede o pedido**
 
 **Fluxo básico:**
@@ -72,9 +74,11 @@
 - O cliente coloca os dados no sistema,entra no aplicativo do banco e efetua o pagamento.
 - O sistema confirma o pedido e direciona para o atendente.
 
-###Confirmar pedido :
+### Confirmar pedido:
 
 **Ator: Atendente**
+
+**Pré condições: Atendente precisa acessar o sistema**
 
 **Descrição: O atendente recebe a informação que o pagamento do pedido foi feito e confirma o pedido**
 
@@ -88,6 +92,8 @@
 ### Receber pedido:
 
 **Ator: Entregador**
+
+**Pré condições: Entregador precisa acessar o sistema**
 
 **Descrição: O entregar recebe os dados do pedido**
 
@@ -106,7 +112,7 @@
 **Fluxo básico:**
 - O entregador chega no local registrado e entrega o pedido ao cliente.
 
-  ### Ativar localização:
+### Ativar localização:
 
 **Ator: Localizador**
 
@@ -123,7 +129,7 @@
 **Fluxo básico:**
 - O entregador acessa o sistema de localização e o localizador exibe o mapa.
 
-  ### Escolher o melhor trajeto:
+### Escolher o melhor trajeto:
 
 **Ator: Localizador**
 
