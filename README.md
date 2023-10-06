@@ -25,7 +25,7 @@ A seguir, os passos para a preparação do projeto:
 
 # Descrição
 
-*O projeto *
+*O projeto visa otimizar o processo de entregas das 40 lojas da Pizza-Express otimizando o tempo de entrega num tempo menor que 30 minutos,e melhorando o progresso de lojas que não teriam espaço no varejo por falta de conhecimento dos usuários.*
 
 # Documentação
 
