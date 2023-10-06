@@ -32,7 +32,7 @@
 
 # Descrição do projeto
 
-*&lt;Introdução do projeto&gt;*
+*O projeto visa otimizar o processo de entregas das 40 lojas da Pizza-Express otimizando o tempo de entrega num tempo menor que 30 minutos,e melhorando o progresso de lojas que não teriam espaço no varejo por falta de conhecimento dos usuários*
 
 # Análise de requisitos funcionais e não-funcionais
 *&lt;Descrição dos requisitos&gt;*
