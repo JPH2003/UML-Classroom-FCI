@@ -43,7 +43,97 @@
 
 # Descrição dos casos de uso
 
-*&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
+### Fazer pedido:
+
+**Ator: Cliente**
+
+**Descrição: O cliente pede o pedido**
+
+**Fluxo básico:**
+
+- O cliente acessa a funcionalidade "Menu".
+- O sistema apresenta o tamanho e a lista de sabores das pizzas.
+- O cliente seleciona o tamanho e até 2 sabores das pizzas
+- O sistema registra o tamanho e os sabores selecionados.
+- O sistema pergunta ao cliente se deseja acompanhar com uma bebida
+- O cliente seleciona "sim" e o sistema mostra as opções disponiveis,ou "não" e o sistema direciona para o pagamento.
+
+### Realizar pagamento:
+
+**Ator: Cliente**
+
+**Descrição: O cliente efetua o pagemento do pedido**
+
+**Fluxo básico:**
+
+- O sistema apresenta o valor do pedido e as formas de pagamento.
+- O cliente seleciona a forma de pagamento desejada.
+- O sistema pede os dados e informações da conta do cliente.
+- O cliente coloca os dados no sistema,entra no aplicativo do banco e efetua o pagamento.
+- O sistema confirma o pedido e direciona para o atendente.
+
+###Confirmar pedido :
+
+**Ator: Atendente**
+
+**Descrição: O atendente recebe a informação que o pagamento do pedido foi feito e confirma o pedido**
+
+**Fluxo básico:**
+
+- O atendente recebe a informação do pedido
+- O atendente informa sobre o pedido para o pizzaiolo.
+- O atendente atualiza as informações de preparo.
+- Quando o pedido estiver pronto o atendente comunica ao entregador.
+
+### Receber pedido:
+
+**Ator: Entregador**
+
+**Descrição: O entregar recebe os dados do pedido**
+
+**Fluxo básico:** 
+
+- O entregador recebe as informações do pedido.
+- O entregador acessa o localizador.
+- O entregador coloca o endereço do cliente e vai em direção ao destino.
+
+### Entregar pedido:
+
+**Ator: Entregador**
+
+**Descrição: O entregador chega ao destino e entrega o pedido ao cliente**
+
+**Fluxo básico:**
+- O entregador chega no local registrado e entrega o pedido ao cliente.
+
+  ### Ativar localização:
+
+**Ator: Localizador**
+
+**Descrição: O localizador é ativado e acessa o gps**
+
+**Fluxo básico:**
+
+### Exibir mapa:
+
+**Ator: Localizador**
+
+**Descrição: O localizador exibe o mapa para o entregar**
+
+**Fluxo básico:**
+- O entregador acessa o sistema de localização e o localizador exibe o mapa.
+
+  ### Escolher o melhor trajeto:
+
+**Ator: Localizador**
+
+**Descrição: O localizador seleciona o melhor trajeto**
+
+**Fluxo básico:**
+
+- O localizador recebe as informações do endereço do cliente e de todas as 40 lojas da Pizza-Express.
+- O localizador calcula qual a rota que levará menos tempo a ser executada.
+- O localizador seleciona a loja que levará menos tempo para a entrega.
 
 # Diagrama de sequencia
 
