@@ -21,11 +21,11 @@ A seguir, os passos para a preparação do projeto:
 
 # Projeto: *<Nome_do_seu_Projeto>*
 
-# Grupo: *<Nome_do_seu_Grupo>*
+# Grupo: *13*
 
 # Descrição
 
-*<Descrição_resumida_do_projeto>*
+*O projeto *
 
 # Documentação
 
