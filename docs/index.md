@@ -39,7 +39,7 @@
 
 # Diagrama de casos de uso
 
-blob:https://web.whatsapp.com/0baa5125-e95c-46f3-adbe-10ae6d8ba10b
+![diagrama-casos-de-uso](https://github.com/JPH2003/UML-Classroom-FCI/assets/131881941/b05f75e3-18e6-4aa0-b18f-84d018f1f629)
 
 # Descrição dos casos de uso
 
