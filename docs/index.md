@@ -3,7 +3,7 @@
 
 
 <font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
+*Pizzaria*
 </center></font>
 
 >*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
@@ -27,14 +27,7 @@
 
 # Autores
 
-* Aluno 1
-* Aluno 2
-* Aluno 3
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
+* Julio Piffer Harada<br>
 
 
 # Descrição do projeto
@@ -46,7 +39,7 @@
 
 # Diagrama de casos de uso
 
-*&lt;Diagrama para visualizar o comportamento dos atores&gt;*
+blob:https://web.whatsapp.com/0baa5125-e95c-46f3-adbe-10ae6d8ba10b
 
 # Descrição dos casos de uso
 
