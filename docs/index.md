@@ -168,7 +168,7 @@
 
 # Diagrama de sequencia
 
-*C:\Users\user\Desktop\diagrama-de-sequencia.jpg*
+![image](https://github.com/JPH2003/UML-Classroom-FCI/assets/131881941/d5c13a5f-af16-4bdd-9174-5f4bab95dfde)
 
 # Diagrama de classes
 
