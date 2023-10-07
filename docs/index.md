@@ -168,7 +168,7 @@
 
 # Diagrama de sequencia
 
-*&lt;Diagrama de ordem e interação dos objetos&gt;*
+*C:\Users\user\Desktop\diagrama-de-sequencia.jpg*
 
 # Diagrama de classes
 
