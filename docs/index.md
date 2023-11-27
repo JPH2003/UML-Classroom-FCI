@@ -176,15 +176,129 @@
 
 # Diagrama de Componentes
 
-*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
+   +--------------------------+
+   |   Dispositivos de        |
+   |   Entrada                |
+   |                          |
+   |  Terminais de Pedidos    |
+   |  Aplicativo/Web para     |
+   |  Clientes                |
+   +--------------------------+
+              |
+   +--------------------------+
+   |   Dispositivos de        |
+   |   Processamento          |
+   |                          |
+   |  Sistema de PDV          |
+   |  Servidores Locais       |
+   +--------------------------+
+              |
+   +--------------------------+
+   |   Banco de Dados         |
+   |                          |
+   |  Banco de Dados de       |
+   |  Pedidos                 |
+   |  Banco de Dados de       |
+   |  Clientes                |
+   +--------------------------+
+              |
+   +--------------------------+
+   |   Dispositivos de        |
+   |   Saída                  |
+   |                          |
+   |  Impressoras na Cozinha  |
+   |  Rastreamento de         |
+   |  Entrega                 |
+   +--------------------------+
+              |
+   +--------------------------+
+   |   Rede e Conectividade   |
+   |                          |
+   |  Roteadores e Switches   |
+   |  Conexão à Internet      |
+   +--------------------------+
+              |
+   +--------------------------+
+   |   Sistema de Pagamento   |
+   |                          |
+   |  Terminais de Pagamento  |
+   |  Gateway de Pagamento    |
+   +--------------------------+
+
 
 # Decisões de arquitetura
 
-*&lt;Descrever a infraestrutura escolhida para arquitetura do projeto&gt;*
+O projeto adota uma arquitetura distribuída que integra dispositivos de hardware e sistemas de software para gerenciar eficientemente os pedidos, a produção na cozinha e a entrega.
+
+Componentes Principais:
+
+Dispositivos de Entrada:
+
+Terminais de Pedidos: Estações de atendimento para receber pedidos feitos por clientes no local ou por telefone.
+Aplicativo/Web para Clientes: Plataforma online onde os clientes fazem pedidos via web ou aplicativo móvel.
+
+Dispositivos de Processamento:
+
+Sistema de PDV (Ponto de Venda): Central de processamento para receber, confirmar e encaminhar pedidos para a cozinha.
+Servidores Locais: Gerenciam a lógica de negócios, integração com o banco de dados e a comunicação entre os diferentes componentes.
+
+Banco de Dados:
+
+Banco de Dados de Pedidos: Armazena informações sobre os pedidos em andamento, status de entrega e histórico.
+Banco de Dados de Clientes: Contém informações sobre os clientes registrados e histórico de pedidos.
+
+Dispositivos de Saída:
+
+Impressoras na Cozinha: Recebem automaticamente os pedidos e imprimem detalhes para a equipe de preparação.
+Rastreamento de Entrega: Dispositivos (como tablets) para entregadores com informações em tempo real sobre os pedidos e rotas.
+
+Rede e Conectividade:
+
+Roteadores e Switches: Mantêm a conectividade entre os diferentes dispositivos dentro do estabelecimento.
+Conexão à Internet: Essencial para receber pedidos online e manter atualizações em tempo real.
+
+Sistema de Pagamento:
+
+Terminais de Pagamento: Dispositivos para processar transações de pagamento no local.
+Gateway de Pagamento Online: Integração com um serviço de pagamento online para transações feitas via web ou aplicativo.
+
+Dispositivos de Entrega:
+
+Rastreadores GPS: Dispositivos para rastrear a localização dos entregadores em tempo real.
+Comunicação com Entregadores: Ferramentas para se comunicar com os motoristas sobre novos pedidos e atualizações.
 
 # Diagrama de implantação
 
-*&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
+              +------------------+
+              |  Cliente (App)  |
+              +------------------+
+                      |
+                      |
+              +------------------+
+              |    Servidor      |
+              | (Web/Application)|
+              +------------------+
+                      |
+                      |
+              +------------------+
+              | Banco de Dados   |
+              +------------------+
+                      |
+                      |
+              +------------------+
+              |   Localização    |
+              +------------------+
+                      |
+                      |
+              +------------------+
+              |  Sistema de      |
+              |   processamento  |
+              +------------------+
+                      |
+                      |
+              +------------------+
+              |     Pizzarias    |
+              +------------------+
 
 # Referências
 
