@@ -176,94 +176,6 @@
 
 # Diagrama de Componentes
 
-Dispositivos de Entrada:
-
-Terminal de Pedidos: Um terminal de pedidos onde os atendentes recebem as encomendas feitas por telefone ou presencialmente.
-Dispositivos Móveis: Tablets ou smartphones para receber pedidos online feitos por clientes através do aplicativo ou site.
-
-Dispositivos de Processamento:
-
-PDV (Ponto de Venda): Um sistema de PDV que processa os pedidos, calcula os custos, e registra as transações.
-Servidores Locais: Servidores locais para processamento de pedidos, interação com o banco de dados e gerenciamento geral do sistema.
-
-Banco de Dados:
-
-Banco de Dados de Pedidos: Armazena informações sobre pedidos, clientes, e inventário.
-Banco de Dados de Clientes: Contém informações sobre os clientes registrados.
-
-Dispositivos de Saída:
-
-Impressoras: Impressoras conectadas ao sistema para imprimir os pedidos para a cozinha.
-Tela de Status: Uma tela visível na cozinha para exibir os pedidos atuais e seu status de preparação.
-Recibos Impressos: Impressoras para gerar recibos para os clientes.
-
-Rede e Conectividade:
-
-Roteadores e Switches: Dispositivos de rede para conectar todos os componentes.
-Conexão à Internet: Conexão estável para aceitar pedidos online.
-
-Sistema de Pagamento:
-
-Terminal de Pagamento: Dispositivos para processar transações de pagamento no local.
-Gateway de Pagamento Online: Integração com um serviço de pagamento online para transações feitas via web ou aplicativo.
-
-Dispositivos de Exibição:
-
-Monitores: Monitores para exibir menus, promoções e informações importantes para os clientes no local.
-
-Dispositivos de Controle:
-
-Controladores Remotos: Dispositivos para controlar sistemas audiovisuais, iluminação e outros elementos no ambiente da pizzaria.
-
-   +--------------------------+
-   |   Dispositivos de        |
-   |   Entrada                |
-   |                          |
-   |  Terminal de Pedidos     |
-   |  Dispositivos Móveis     |
-   +--------------------------+
-              |
-   +--------------------------+
-   |   Dispositivos de        |
-   |   Processamento          |
-   |                          |
-   |  PDV (Ponto de Venda)    |
-   |  Servidores Locais       |
-   +--------------------------+
-              |
-   +--------------------------+
-   |   Banco de Dados         |
-   |                          |
-   |  Banco de Dados de       |
-   |  Pedidos                 |
-   |  Banco de Dados de       |
-   |  Clientes                |
-   +--------------------------+
-              |
-   +--------------------------+
-   |   Dispositivos de        |
-   |   Saída                  |
-   |                          |
-   |  Impressoras             |
-   |  Tela de Status          |
-   |  Recibos Impressos       |
-   +--------------------------+
-              |
-   +--------------------------+
-   |   Rede e Conectividade   |
-   |                          |
-   |  Roteadores e Switches   |
-   |  Conexão à Internet      |
-   +--------------------------+
-              |
-   +--------------------------+
-   |   Sistema de Pagamento   |
-   |                          |
-   |  Terminal de Pagamento   |
-   |  Gateway de Pagamento    |
-   +--------------------------+
-
-
 # Decisões de arquitetura
 
 O projeto adota uma arquitetura distribuída que integra dispositivos de hardware e sistemas de software para gerenciar eficientemente os pedidos, a produção na cozinha e a entrega.
@@ -330,7 +242,7 @@ Comunicação com Entregadores: Ferramentas para se comunicar com os motoristas 
                       |
               +------------------+
               |  Sistema de      |
-              |   processamento  |
+              |  processamento   |
               +------------------+
                       |
                       |
