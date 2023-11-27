@@ -217,6 +217,36 @@ Dispositivos de Entrega:
 Rastreadores GPS: Dispositivos para rastrear a localização dos entregadores em tempo real.
 Comunicação com Entregadores: Ferramentas para se comunicar com os motoristas sobre novos pedidos e atualizações.
 
+
+Arquitetura em camadas pode ser dividida em 3 camadas principais(Interface do usuário,lógica de negócios e de dados):
+
+1. Camada de Apresentação (Interface do Usuário):
+Frontend Web:
+Desenvolvido usando tecnologias web padrão, como HTML, CSS e JavaScript.
+Interfaces responsivas para clientes fazerem pedidos, visualizarem o cardápio e acompanharem o status de seus pedidos.
+Interação intuitiva e amigável para uma experiência do usuário agradável.
+
+2. Camada de Lógica de Aplicação:
+Serviços e Lógica de Negócios:
+
+Gerencia a lógica de negócios, processando solicitações e tomando decisões com base nas regras do negócio.
+Inclui serviços como gestão de pedidos, gestão de cardápio, autenticação e autorização.
+Garante a consistência e integridade dos dados.
+Controladores:
+
+Gerenciam a comunicação entre o frontend e os serviços.
+Recebem as solicitações do usuário, acionam a lógica de negócios apropriada e enviam as respostas de volta ao frontend.
+
+3. Camada de Dados:
+Banco de Dados:
+
+Armazena informações principais, como detalhes do cardápio, pedidos, informações do cliente, e outros dados relevantes.
+
+Acesso a Dados:
+
+Responsável por acessar e manipular os dados armazenados no banco de dados.
+Pode incluir componentes como repositórios de dados ou ORMs (Object-Relational Mappings).
+
 # Diagrama de implantação
 
               +------------------+
