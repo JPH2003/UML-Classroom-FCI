@@ -176,6 +176,8 @@
 
 # Diagrama de Componentes
 
+![Diagrama de componentes](https://github.com/JPH2003/UML-Classroom-FCI/assets/131881941/db8f3d91-80c6-4ff0-8969-f4b5a46128c3)
+
 # Decisões de arquitetura
 
 O projeto adota uma arquitetura distribuída que integra dispositivos de hardware e sistemas de software para gerenciar eficientemente os pedidos, a produção na cozinha e a entrega.
