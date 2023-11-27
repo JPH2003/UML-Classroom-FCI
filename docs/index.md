@@ -172,7 +172,7 @@
 
 # Diagrama de classes
 
-*&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
+![Diagrama de Classes](https://github.com/JPH2003/UML-Classroom-FCI/assets/131881941/f4e7ad19-9416-4b7d-8bbb-0292cb36a0aa)
 
 # Diagrama de Componentes
 
